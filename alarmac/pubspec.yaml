@@ -30,6 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.1.0   # for the State management
+  flutter_local_notifications: ^16.2.0  # For scheduling the alarms
+  timezone: ^0.9.2  # Handling the time zones
+  geolocator: ^10.1.0  # For the location-based alarms
+  speech_to_text: ^6.3.0  # For the voice commands
+  shared_preferences: ^2.2.2  # To Save alarms locally
+  http: ^0.13.6  # To Fetch weather data
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
